@@ -1,0 +1,13 @@
+__pycache__/
+.git/
+.env
+.python-version
+uv.lock
+pyproject.toml
+.chainlit/
+.github/
+README.md
+gemini.md
+chainlit.md
+deploy_to_hf.py
+check_token.py

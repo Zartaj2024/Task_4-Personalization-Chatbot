@@ -17,7 +17,7 @@ openai_client = AsyncOpenAI( # Use AsyncOpenAI
 # Define Gemini model
 gemini_model = OpenAIChatCompletionsModel(
     openai_client=openai_client,
-    model="gemini-2.5-flash", # Reverting to 1.5-flash as it's more standard
+    model="gemini-1.5-flash",
 )
 
 # Define the system prompt
